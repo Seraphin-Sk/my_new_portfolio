@@ -20,8 +20,8 @@ img{
     width: 100%;
 }
 
-/* 01_HOME */
-.side_bar{
+/* 01-HOME */
+.side-bar{
     position: fixed;
     background-color: #000000;
     top: 0;
@@ -31,30 +31,30 @@ img{
     transition: all .5s ease;
 }
 
-.content_side_bar{
+.content-side-bar{
     padding: 40px;
     color: var(--bg-color);
 }
 
-.content_logo{
+.content-logo{
     position: relative;
     margin-bottom: 120px;
 }
 
-.content_logo h1{
+.content-logo h1{
     font-size: 30px;
 }
 
-.link_menu li{
+.link-menu li{
     padding: 5px 0;
 }
 
-.link_menu li a{
+.link-menu li a{
     color: var(--bg-color);
     font-size: 0.8rem;
 }
 
-.link_menu li a:hover{
+.link-menu li a:hover{
     font-weight: 600;
 }
 
@@ -64,11 +64,11 @@ img{
     border-image-source: var(--background); 
 }
 
-.socails_side_bar{
+.socails-side-bar{
     margin-top: 100px;
 }
 
- .link_socails li{
+ .link-socails li{
     padding: 10px 0 ;
     width: 40px;
     height: 40px;
@@ -80,24 +80,24 @@ img{
     margin-bottom: 5px;
 }
 
-.link_socails li:hover{
+.link-socails li:hover{
     transition: 0.5s;
     background-color: #2c16f1;
 }
 
-.link_socails li a i:hover{
+.link-socails li a i:hover{
     color: white;
 }
 
-.link_socails li a{
+.link-socails li a{
     color: var(--text-color);
 }
 
-.copyrights_side_bar{
+.copyrights-side-bar{
     margin-top: 30px;
 }
 
-.copyrights_side_bar p{
+.copyrights-side-bar p{
     font-size: 0.8rem;
 }
 
@@ -113,7 +113,7 @@ label #btn, label #cancel{
 
 
 /* part right */
-.global_right{
+.global-right{
     position: relative;
     top: 0;
     right: 0;
@@ -132,7 +132,7 @@ label #btn, label #cancel{
     padding: 0 20px;
 }
 
-.content_hero .content{
+.content-hero .content{
     position: relative;
     display: grid;
     gap: 2rem;
@@ -141,21 +141,21 @@ label #btn, label #cancel{
     z-index: 100;
 }
 
-.content_title h1 {
+.content-title h1 {
     font-size: 3rem;
     line-height: 3.5rem;
 }
 
-.content_title .title_span{
+.content-title .title-span{
    font-weight: normal;
 }
 
-.content_title .subtitle_span{
+.content-title .subtitle-span{
     font-weight: 800;
     font-style: italic;
 }
 
-.content_btn .title_btn{
+.content-btn .title-btn{
     padding: 10px 30px;
     background-color: var(--text-color);
     color: var(--bg-color);
@@ -166,30 +166,30 @@ label #btn, label #cancel{
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.4);
 }
 
-.content_btn .title_btn a{
+.content-btn .title-btn a{
     color: var(--bg-color);
 }
 
-.title_btn .icon_btn{
+.title-btn .icon-btn{
     border: 1px solid linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
     padding: 3px 3px;
     font-size: 0.8rem;
     background: linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
 }
 
-.content_contact{
+.content-contact{
     display: flex;
     gap: 1.5rem;
 }
 
-.contact_text{
+.contact-text{
     display: flex;
     gap: 0.5rem;
     font-size: 0.7rem;
     font-style: italic;
 }
 
-.contact_icon{
+.contact-icon{
     font-size: 1rem;
 }
 
@@ -201,61 +201,61 @@ label #btn, label #cancel{
     top: -310px;
 }
 
-.img_hero{
+.img-hero{
     padding: 0 40px;
 }
 
-.socails_hero{
+.socails-hero{
     margin-right: 20px;
 }
 
-.link_socails li a{
+.link-socails li a{
     font-size: 1.2rem;
 }
 
 
-/* ================ 02_ABOUT ============== */
-.container_welcom{
+/* ================ 02-ABOUT ============== */
+.container-welcom{
     position: relative;
     padding: 30px 70px;
 }
 /* welcome to */
 
-.title_wlcom span{
+.title-wlcom span{
     font-style: italic;
     font-size: 0.7rem;
 }
 
-.content_element{
+.content-element{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.element_img img{
+.element-img img{
     width: 100%;
     height: auto;
 }
 
-.element_img .details_img{
+.element-img .details-img{
     text-align: center;
     margin-top: 20px;
 }
 
-.details_img h1{
+.details-img h1{
     color: #3535e7;
 }
 
-.details_img .subtitle{
+.details-img .subtitle{
     font-size: 0.8rem;
 }
 
-.details_img .subtitle_span{
+.details-img .subtitle-span{
     font-style: italic;
     font-weight: 800;
 }
 
-.details_img button{
+.details-img button{
     margin-top: 20px;
     padding: 10px 30px;
     background-color: var(--text-color);
@@ -267,48 +267,48 @@ label #btn, label #cancel{
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.4);
 }
 
-.details_img button .icon_btn{
+.details-img button .icon-btn{
     border: 1px solid linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
     padding: 3px 3px;
     font-size: 0.8rem;
     background: linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
 }
 
-.details_img button a{
+.details-img button a{
     color: var(--bg-color);
 }
 
-.element_doc{
+.element-doc{
     margin-left: 80px;
 }
 
-.element_doc .doc_links ul{
+.element-doc .doc-links ul{
     display: grid;
     grid-template-columns: repeat(2, max-content);
     gap: 1rem;
     padding: 30px 0;
 }
 
-.doc_links li{
+.doc-links li{
     font-style: italic;
     font-size: 0.8rem;
     font-weight: 600;
 }
 
-.doc_links .doc_icon{
+.doc-links .doc-icon{
     border: 1px solid ececec;
     border-radius: 50%;
     padding: 5px;
     background: #ececec;
 }
 
-.doc_para{
+.doc-para{
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
 }
 
-.para .title_para{
+.para .title-para{
     margin-bottom: 5px;
     font-size: 1rem;
     font-style: italic;
@@ -316,41 +316,41 @@ label #btn, label #cancel{
     gap: 0.7rem;
 }
 
-.para .title_para .number{
+.para .title-para .number{
     font-style: normal;
     font-size: 2.5rem;
     color: #3535e7;
 }
 
-.para .para_content{
+.para .para-content{
     font-size: 0.8rem;
 }
 
-.para .para_content span{
+.para .para-content span{
     color: #3535e7;
 }
 
-.element_doc .doc_faq{
+.element-doc .doc-faq{
     background-color: var(--text-color);
     border: 1px solid var(--text-color);
     padding: 20px 20px;
     display: flex;
 }
 
-.doc_faq p{
+.doc-faq p{
     font-size: 0.9rem;
     font-style: italic;
     color:#868686;
     margin-left: 10px;
 }
 
-.doc_faq .icon_faq{
+.doc-faq .icon-faq{
     color :#292828;
     font-size: 2.3rem;
 }
 
 /* My experience */
-.my_experience{
+.my-experience{
     background: rgb(0, 0, 74);
     display: flex; 
     align-items: center;
@@ -358,92 +358,92 @@ label #btn, label #cancel{
     padding: 50px 70px;
 }
 
-.my_experience .block_1{
+.my-experience .block-1{
     display: grid;
     row-gap: 1rem;
 }
 
-.block_1 .block_title .expe{
+.block-1 .block-title .expe{
     color: var(--bg-color);
     font-style: italic;
     font-size: 0.7rem;
 }
 
-.block_title h1{
+.block-title h1{
     color: var(--bg-color);
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-.block_1 .block_para{
+.block-1 .block-para{
     font-size: 0.7rem;
     color: var(--bg-color);
 }
 
 
-.block_2{
+.block-2{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 1rem;
 }
 
-.block_2 .exp_block span{
+.block-2 .exp-block span{
     color: #2c16f1;
     font-weight: 600;
 }
 
-.exp_block h1{
+.exp-block h1{
     color: var(--bg-color);
     font-size: 1.3rem;
     font-weight: 500;
 }
 
 /* ============ SERVICES ============= */
-.service_specialitie{
+.service-specialitie{
     padding: 50px 100px;
 }
 
-.service_specialitie .title_specialitie span{
+.service-specialitie .title-specialitie span{
     font-style: italic;
     font-size: 0.7rem;
     color: var(--text-color);
 }
 
-.title_specialitie h1{
+.title-specialitie h1{
     font-weight: 600;
     letter-spacing: 0.1rem;
 }
 
-.services_items .items_group{
+.services-items .items-group{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.items_group .items_title, .items_subtitle, .items_icons{
+.items-group .items-title, .items-subtitle, .items-icons{
     margin-bottom: 20px;
 }
 
-.items_title h1{
+.items-title h1{
     font-size: 1.1rem;
     font-weight: 500;
 }
 
-.items_subtitle p{
+.items-subtitle p{
     font-size: 0.7rem;
     margin-left: 7rem;
 }
 
-.items_subtitle .item_img{
+.items-subtitle .item-img{
     margin-left: 7rem;
     
 }
-.items_subtitle .item_img img{
+.items-subtitle .item-img img{
     width: 70%;
     height: auto;
 }
 
-.items_icons i{
+.items-icons i{
     font-size: 2rem;
     color: #141313;
     cursor: pointer;
@@ -451,60 +451,60 @@ label #btn, label #cancel{
 
 /* =========== WORK ======= */
 
-.recent_projets{
+.recent-projets{
     padding: 50px 50px;
 }
 
-.container_project .work_title{
+.container-project .work-title{
     margin-bottom: 30px;
 }
 
-.work_title span{
+.work-title span{
     font-size: 0.7rem;
     font-style: italic;
 }
 
-.work_content {
+.work-content {
     display: grid;
     grid-template-columns: repeat(2, max-content);
     column-gap: 2rem;
 }
 
-.project_content{
+.project-content{
     display: flex;
     justify-content: space-between;
 }
 
-.work_project{
+.work-project{
     padding-right: 1rem;
 }
-.project_content .work_project span{
+.project-content .work-project span{
     font-size: 0.6rem;
     font-style: italic;
     font-weight: normal;
 }
 
-.work_project h3{
+.work-project h3{
     font-size: 1.5rem;
     font-weight: 500;
 } 
 
-.work_project i{
+.work-project i{
     font-size: 3rem;
 }
 
-.work_img{
+.work-img{
     position: relative;
     overflow: hidden;
 }
 
-.work_img img{
+.work-img img{
     width: 100%;
     border: 1px solid rgb(0, 0, 74);
     border-radius: 5px;
 }
 
-.work_img .work_modal{
+.work-img .work-modal{
     position: absolute;
     left: 0;
     bottom: -100%;
@@ -525,7 +525,7 @@ label #btn, label #cancel{
 }
 
 
-.modal_subtitle{
+.modal-subtitle{
     font-size: 0.8rem;
     color: #e6e3e3;
     border: 1px solid #18171768;
@@ -535,13 +535,13 @@ label #btn, label #cancel{
     background-color: #18171768;
   }
   
-  .modal_title{
+  .modal-title{
     font-size: 1rem;
     padding: 1rem 0;
     color: rgb(0, 0, 74);
   }
   
-  .modal_button i{
+  .modal-button i{
     font-size: 1.4rem;
     color: var(--text-color);
     font-weight: var(--bg-color);
@@ -552,7 +552,7 @@ label #btn, label #cancel{
     transition: all 0.4s ease-out;
   }
   
-  .modal_button i:hover{
+  .modal-button i:hover{
     background-color: rgb(0, 0, 74);
     color: var(--bg-color);
     border: 1px solid var(--title-color);
@@ -560,70 +560,70 @@ label #btn, label #cancel{
   
   /* move and remove blur */
   
-  .work_img:hover .work_modal{
+  .work-img:hover .work-modal{
     bottom: 0;
   }
   
 
 /* TESTIMONAIL */
 
-.recent_projets .testimonials{
+.recent-projets .testimonials{
     background: rgb(0, 0, 74) ;
     margin-top: 30px;
 }
 
-.content_testi .testi_title{
+.content-testi .testi-title{
     text-align: center;
     padding: 30px 0;
     margin-bottom: -70px;
 
 }
 
-.testi_title span{
+.testi-title span{
     font-style: italic;
     font-size: 0.7rem;
     color: var(--bg-color);
 }
 
-.testi_title h1{
+.testi-title h1{
     color: var(--bg-color);
     font-size: 2rem;
     font-weight: 500;
 }
 
-.content_testi .block_testi{
+.content-testi .block-testi{
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
 
 
-.block_testi .testi_img img{
+.block-testi .testi-img img{
     width: 150%;
 }
 
-.block_testi .testi_quote{
+.block-testi .testi-quote{
     margin-left: 50px;
     margin-top: 70px;
 } 
 
-.testi_quote .quote_p p{
+.testi-quote .quote-p p{
     font-size: 1rem;
     font-style: italic;
     color: #cececebc;
     padding: 20px 0;
 }
 
-.testi_quote .quote_p span{
+.testi-quote .quote-p span{
     font-size: 0.7rem;
     color: var(--bg-color);
 }
 
-.testi_quote .quote_icons{
+.testi-quote .quote-icons{
     padding: 20px 0;
 }
 
-.quote_icons i{
+.quote-icons i{
     border: 1px solid var(--bg-color);
     padding: 5px;
     border-radius: 50%;
@@ -632,67 +632,67 @@ label #btn, label #cancel{
     font-weight: 200;
 }
 
-.quote_icons i:hover{
+.quote-icons i:hover{
     background-color: rgb(0, 0, 74);
     color: var(--bg-color);
     transition: 0.5s;
 }
 
-.testi_logo{
+.testi-logo{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 50px;
 }
 
-.testi_logo img{
+.testi-logo img{
     width: 15%;
 }
 
 
 /* ================= BLOGS =============== */
-.read_blog {
+.read-blog {
     padding: 50px 50px;
 }
 
-.read_blog .blog_title {
+.read-blog .blog-title {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.blog_title span {
+.blog-title span {
     font-size: 0.7rem;
     font-style: italic;
 }
 
-.read_blog  .blog_content {
+.read-blog  .blog-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
 }
 
-.blog_content img{
+.blog-content img{
     width: 100%;
     height: auto;
 }
 
-.blog_content .group_txt span{
+.blog-content .group-txt span{
     font-size: 0.7rem;
     font-style: italic;
 }
 
-.blog_content .group_txt p{
+.blog-content .group-txt p{
     font-weight: 600;
     font-size: 0.9rem;
 }
 
-.read_blog .blog_btn{
+.read-blog .blog-btn{
     padding: 50px 0;
     text-align: center;
 }
 
-.read_blog .blog_btn button{
+.read-blog .blog-btn button{
     padding: 10px 30px;
     background-color: var(--text-color);
     color: var(--bg-color);
@@ -703,7 +703,7 @@ label #btn, label #cancel{
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.4);
 }
 
-.blog_btn button .icon_btn{
+.blog-btn button .icon-btn{
     border: 1px solid linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
     padding: 3px 3px;
     font-size: 0.8rem;
@@ -712,65 +712,65 @@ label #btn, label #cancel{
 
 /* ============ CONTACT ============== */
 
-.container_contact{
+.container-contact{
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
     margin-top: 10%;
 }
 
-.contact_txt{
+.contact-txt{
     display: grid;
     row-gap: 3rem;
 }
 
-.contact_txt .txt_title span {
+.contact-txt .txt-title span {
     font-size: 0.7rem;
     font-style: italic;
 }
 
-.contact_txt .txt_title h1{
+.contact-txt .txt-title h1{
     margin-bottom: 10px;
     font-weight: 600;
 }
 
-.contact_txt .txt_title p{
+.contact-txt .txt-title p{
     font-size: 0.7rem;
 }
 
-.contact_txt .txt_number span{
+.contact-txt .txt-number span{
     font-weight: 600;
     font-size: 1.2rem;
 }
 
-.contact_txt .txt_socials a{
+.contact-txt .txt-socials a{
     color: var(--text-color);
     padding: 0 10px;
     font-size: 0.7rem;
 }
 
-.contact_txt .txt_socials a:hover{
+.contact-txt .txt-socials a:hover{
     font-weight: 600;
 }
 
 /* form */
-.contact_form {
+.contact-form {
     background: rgb(0, 0, 74);
     padding: 50px 50px;
     width: 50%;
 }
 
-.contact_form .form_txt{
+.contact-form .form-txt{
     color: var(--bg-color);
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.input_group{
+.input-group{
     margin-bottom: 30px;
 }
 
-.input_group .user_name{
+.input-group .user-name{
     padding: 5px 0;
     border: none;
     outline: none;
@@ -780,11 +780,11 @@ label #btn, label #cancel{
     width: 49%;
 }
 
-.input_group .user_name::placeholder{
+.input-group .user-name::placeholder{
     color: var(--bg-color);
     font-size: 0.7rem;
 }
-.form_input .are_msg{
+.form-input .are-msg{
     padding: 5px 0;
     border: none;
     outline: none;
@@ -795,16 +795,16 @@ label #btn, label #cancel{
     width: 100%;
 }
 
-.form_input .are_msg::placeholder{
+.form-input .are-msg::placeholder{
     color: var(--bg-color);
     font-size: 0.7rem;
 }
 
-.form_input .blog_btn{
+.form-input .blog-btn{
     margin-top: 25px;
 }
 
-.form_input .blog_btn button{
+.form-input .blog-btn button{
     padding: 10px 20px;
     background-color: var(--text-color);
     color: var(--bg-color);
@@ -815,7 +815,7 @@ label #btn, label #cancel{
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.4);
 }
 
-.blog_btn button .icon_btn{
+.blog-btn button .icon-btn{
     border: 1px solid linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
     padding: 3px 3px;
     font-size: 0.8rem;
@@ -828,9 +828,9 @@ label #btn, label #cancel{
            /* Smartphone */
 @media only screen and (min-width: 390px) and (max-width: 600px) {
  
-    /* SIDE_BAR */
+    /* side-bar */
 
-    .global_left .side_bar{
+    .global-left .side-bar{
         position: fixed;
         left: -250px;
         width: 50%;
@@ -838,11 +838,11 @@ label #btn, label #cancel{
         transition: all .5s ease;
     }
 
-    .content_side_bar .menu_side_bar{
+    .content-side-bar .menu-side-bar{
         margin-top: 180px;
     }
     
-    .socails_side_bar{
+    .socails-side-bar{
         margin-top: 170px;
     }
 
@@ -880,7 +880,7 @@ label #btn, label #cancel{
         transition: all .5s ease;
     }
 
-    #check:checked ~ .side_bar{
+    #check:checked ~ .side-bar{
         left: 0;
     }
 
@@ -896,7 +896,7 @@ label #btn, label #cancel{
 
     /* ======= HOME - HERO ========= */
 
-    .global_right{
+    .global-right{
         left: 0;
         width: 100%;
         z-index: -1111;
@@ -910,27 +910,27 @@ label #btn, label #cancel{
         margin: 0; */
     }
 
-    /* .hero .content_hero{
+    /* .hero .content-hero{
         grid-column: 1 / 3; 
     } */
 
-    .content_hero .content{
+    .content-hero .content{
         margin-left: 10px;
         margin-top: 100px;
     }
 
-    .hero .img_hero, .socails_hero {
+    .hero .img-hero, .socails-hero {
         /* grid-column: span 2; */
         grid-row: 2 ;
         
     } 
 
-    .content_contact{
+    .content-contact{
         display: grid;
         row-gap: 0.5em;
     }
 
-    .hero .img_hero{
+    .hero .img-hero{
         width: 120%; 
         margin-top: -100px;
     }
@@ -944,240 +944,240 @@ label #btn, label #cancel{
     }
 
     /* ========== ABOUT ========= */
-    .container_welcom{
+    .container-welcom{
         padding: 20px 0;
         margin-top: 50px;
     }
     /* welcome to */
     
-    .title_wlcom{
+    .title-wlcom{
         text-align: center;
         font-size: 20px;
     }
 
-    .content_element, .doc_para, .my_experience {
+    .content-element, .doc-para, .my-experience {
         display: block;
     }
 
-    .element_img img{
+    .element-img img{
         width: 100%;
         height: auto;
         margin-top: -50px;
     }
 
-    .doc_para .para{
+    .doc-para .para{
         padding: 10px 0;
     }
 
-    .element_doc{
+    .element-doc{
         margin-left: 30px;
     }
 
-    .element_doc .doc_faq {
+    .element-doc .doc-faq {
         margin-right: 20px;
     }
 
-    .my_experience {
+    .my-experience {
         display: block;
         padding: 40px 0;
     }
 
-    .my_experience .block_1, .block_2{
+    .my-experience .block-1, .block-2{
         padding: 0 30px;
     }
 
-    .block_title h1{
+    .block-title h1{
         font-size: 2.2rem;
     }
 
-    .block_1 .block_title .expe{
+    .block-1 .block-title .expe{
         font-size: 1rem;
     }
     
-    .block_1 .block_para{
+    .block-1 .block-para{
         font-size: 1.3rem;
     }
 
-    .block_2{
+    .block-2{
         display: block;
         margin-top: 30px;
     }
 
-    .block_2 h1{
+    .block-2 h1{
         padding: 10px 0;
         font-size: 1.7rem;
     }
     
     /* ========== SERVICES =========== */
-    .service_specialitie{
+    .service-specialitie{
         padding: 0 20px;
         margin-top: 80px;
     }
     
-    .service_specialitie .title_specialitie span{
+    .service-specialitie .title-specialitie span{
         font-size: 1rem;
     }
     
-    .title_specialitie h1{
+    .title-specialitie h1{
         font-size: 2.3rem;
     }
     
-    .services_items .items_group{
+    .services-items .items-group{
         display: grid;
 
     }
 
-    .items_title h1{
+    .items-title h1{
         font-size: 1.8rem;
     }
     
-    .items_subtitle p{
+    .items-subtitle p{
         font-size: 1rem;
         margin-left: 3rem;
     }
     
-    .items_subtitle .item_img{
+    .items-subtitle .item-img{
         margin-left: 3rem;
     }
     
     /* ======== WORKS ========= */
-    .recent_projets{
+    .recent-projets{
         padding: 0 20px;
         margin-top: 80px; 
     }
     
-    .work_title span{
+    .work-title span{
         font-size: 1rem;
     }
 
-    .work_title h1{
+    .work-title h1{
         font-size: 2.3rem;
     }
     
-    .work_content {
+    .work-content {
         display: grid;
         grid-template-columns: repeat(1, max-content);
         column-gap: 0;
         row-gap: 1rem;
     }
 
-    .project_content .work_project span{
+    .project-content .work-project span{
         font-size: 0.9rem;
     }
 
-    .work_project h3{
+    .work-project h3{
         font-size: 1.7rem;
     } 
 
-    .project_content{
+    .project-content{
         display: grid;
         row-gap: 1rem;
     }
     
     
-    .work_project i{
+    .work-project i{
         display: none;
     }
     
-    .work_img img{
+    .work-img img{
         width: 110%;
     }
 
     /* testimonial */
     
-    .content_testi .block_testi{
+    .content-testi .block-testi{
         display: grid;
         padding: 0 30px;
     }
 
-    .testi_title span{
+    .testi-title span{
         font-size: 1rem;
     }
 
-    .block_testi .testi_img img {
+    .block-testi .testi-img img {
         width: 100%;
     }
 
-    .block_testi .testi_quote{
+    .block-testi .testi-quote{
         margin-top: 0;
     } 
     
-    .block_testi .testi_quote{
+    .block-testi .testi-quote{
         margin-left: 10px;
     } 
 
     /* ============ BLOGS ============= */
-    .read_blog {
+    .read-blog {
         padding: 70px 40px;
     }
     
-    .read_blog .blog_title {
+    .read-blog .blog-title {
         text-align: center;
         margin-bottom: 40px;
     }
     
-    .blog_title span {
+    .blog-title span {
         font-size: 1rem;
     }
-    .blog_title h1{
+    .blog-title h1{
         font-size: 2rem;
     }
     
-    .read_blog  .blog_content {
+    .read-blog  .blog-content {
         display: grid;
         row-gap: 3rem;
     }
 
-    .blog_content .group_txt span{
+    .blog-content .group-txt span{
         font-size: 1rem;
     }
     
-    .blog_content .group_txt p{
+    .blog-content .group-txt p{
         font-size: 1.4rem;
     }
 
     /* ============ CONTACT ============= */
-    .container_contact{
+    .container-contact{
         display: grid;
         padding: 0 30px;
         margin-top: 50px;
     }
 
-    .contact_txt{
+    .contact-txt{
         row-gap: 1rem;
         padding: 50px 0;
     }
     
-    .contact_txt .txt_title span {
+    .contact-txt .txt-title span {
         font-size: 1rem;
     }
     
-    .contact_txt .txt_title h1{
+    .contact-txt .txt-title h1{
         font-size: 2.3rem;
         margin-bottom: 0;
     }
     
-    .contact_txt .txt_title p{
+    .contact-txt .txt-title p{
         font-size: 1rem;
     }
     
-    .contact_txt .txt_number span{
+    .contact-txt .txt-number span{
         font-size: 1.5rem;
     }
     
-    .contact_txt .txt_socials a{
+    .contact-txt .txt-socials a{
         color: var(--text-color);
         padding: 0 5px;
         font-size: 1.1rem;
     }
     
-    .contact_form {
+    .contact-form {
         background: linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
         padding: 50px 50px;
         width: 100%;
     }
     
-    .input_group .user_name{
+    .input-group .user-name{
         padding: 20px 0;
         width: 100%;
     }
@@ -1186,9 +1186,9 @@ label #btn, label #cancel{
                /* Tablette */
     /* ========= MEDIA QUERIES ========== */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* SIDE_BAR */
+    /* side-bar */
 
-    .global_left .side_bar{
+    .global-left .side-bar{
         position: fixed;
         left: -400px;
         width: 40%;
@@ -1196,40 +1196,40 @@ label #btn, label #cancel{
         transition: all .5s ease;
     }
 
-    .content_side_bar .menu_side_bar{
+    .content-side-bar .menu-side-bar{
         margin-top: 200px;
     }
 
-    .content_logo{
+    .content-logo{
         margin-top: -20px;
     }
 
-    .content_logo h1{
+    .content-logo h1{
         font-size: 50px;
     }
     
-    .link_menu li{
+    .link-menu li{
         padding: 10px 0;
     }
     
-    .link_menu li a{
+    .link-menu li a{
         font-size: 1.7rem;
     }
     
-    .link_socails li{
+    .link-socails li{
         width: 60px;
         height: 60px;
     }
     
-    .link_socails li a{
+    .link-socails li a{
         font-size: 35px;
     }
     
-    .copyrights_side_bar p{
+    .copyrights-side-bar p{
         font-size: 1rem;
     }
 
-    .socails_side_bar{
+    .socails-side-bar{
         margin-top: 120px;
     }
 
@@ -1267,7 +1267,7 @@ label #btn, label #cancel{
         transition: all .5s ease;
     }
 
-    #check:checked ~ .side_bar{
+    #check:checked ~ .side-bar{
         left: 0;
     }
 
@@ -1282,7 +1282,7 @@ label #btn, label #cancel{
     
     /* ======= HOME - HERO ========= */
 
-    .global_right{
+    .global-right{
         left: 0;
         width: 100%;
         z-index: -1111;
@@ -1293,48 +1293,48 @@ label #btn, label #cancel{
         margin-top: 90px;
     }
 
-    .content_hero .content{
+    .content-hero .content{
         margin-left: 20px;
         margin-top: 40px;
     }
 
-    .hero .img_hero, .socails_hero {
+    .hero .img-hero, .socails-hero {
         grid-row: 2 ;
         
     }
 
-    .content_contact{
+    .content-contact{
         display: grid;
         row-gap: 0.5rem;
     }
 
-    .content_title h1 {
+    .content-title h1 {
         font-size: 5rem;
         line-height: 90px;
     }
     
-    .content_title .subtitle{
+    .content-title .subtitle{
         font-size: 1.7rem;
     }
 
-    .content_btn .title_btn{
+    .content-btn .title-btn{
         padding: 20px 40px;
         font-size: 1.5rem;
     }
     
-    .title_btn .icon_btn{
+    .title-btn .icon-btn{
         font-size: 1.5rem;
     }
     
-    .contact_text{
+    .contact-text{
         font-size: 1.5rem;
     }
 
-    .content_contact .contact_icon{
+    .content-contact .contact-icon{
         font-size: 2rem;
     }
 
-    .hero .img_hero{
+    .hero .img-hero{
         width: 100%; 
         margin-top: -150px;
     }
@@ -1349,133 +1349,133 @@ label #btn, label #cancel{
 
 
     /* ========== ABOUT ========= */
-    .container_welcom{
+    .container-welcom{
         padding: 20px 0;
         margin-top: 50px;
     }
     /* welcome to */
     
-    .title_wlcom span{
+    .title-wlcom span{
         font-size: 1.5rem;
     }
-    .title_wlcom{
+    .title-wlcom{
         text-align: center;
         font-size: 2rem;
     }
 
-    .content_element, .doc_para, .my_experience {
+    .content-element, .doc-para, .my-experience {
         display: block;
     }
     
-    .element_img img{
+    .element-img img{
         width: 100%;
         height: auto;
         margin-top: -100px;
     }
     
-    .element_img .details_img{
+    .element-img .details-img{
         margin-top: 30px;
     }
     
-    .details_img h1{
+    .details-img h1{
         font-size: 3.5rem;
     }
     
-    .details_img .subtitle{
+    .details-img .subtitle{
         font-size: 1.5rem;
     }
     
-    .details_img button{
+    .details-img button{
         padding: 20px 40px;
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     
-    .details_img button .icon_btn{
+    .details-img button .icon-btn{
         padding: 5px 5px;
         font-size: 1.5rem;
     }
 
-    .doc_links li{
+    .doc-links li{
         font-size: 1.5rem;
     }
     
-    .doc_links .doc_icon{
+    .doc-links .doc-icon{
         padding: 10px;
     } 
     
-    .doc_para .para{
+    .doc-para .para{
         padding: 10px 0;
     }
 
-    .para .title_para{
+    .para .title-para{
         font-size: 3rem;
         display: flex;
         gap: 1rem;
     }
     
-    .para .title_para .number{
+    .para .title-para .number{
         font-size: 6rem;
     }
     
-    .para .para_content{
+    .para .para-content{
         font-size: 1.5rem;
     }
 
-    .content_element .element_doc {
+    .content-element .element-doc {
         margin-left: 30px;
     }
     
-    .doc_faq p{
+    .doc-faq p{
         font-size: 1.2rem;
     }
     
-    .doc_faq .icon_faq{
+    .doc-faq .icon-faq{
         font-size: 3rem;
     }
 
-    .element_doc{
+    .element-doc{
         margin-left: 20px;
     }
 
-    .element_doc .doc_faq {
+    .element-doc .doc-faq {
         margin-right: 20px;
     }
 
-    .my_experience {
+    .my-experience {
         display: block;
         padding: 40px 0;
     }
 
-    .my_experience .block_1, .block_2{
+    .my-experience .block-1, .block-2{
         padding: 0 30px;
     }
 
-    .block_title h1{
+    .block-title h1{
         font-size: 4rem;
     }
 
-    .block_1 .block_title .expe{
+    .block-1 .block-title .expe{
         font-size: 1.5rem;
     }
     
-    .block_1 .block_para{
+    .block-1 .block-para{
         font-size: 1.6rem;
     }
 
-    .block_2{
+    .block-2{
         display: block;
         margin-top: 30px;
     }
     
-    .block_2 .exp_block span{
+    .block-2 .exp-block span{
         color: #2c16f1;
         font-style: normal;
         font-size: 2.3rem;
         font-weight: 600;
     }
     
-    .exp_block h1{
+    .exp-block h1{
         color: var(--bg-color);
         font-size: 2.3rem;
         font-weight: 500;
@@ -1484,51 +1484,51 @@ label #btn, label #cancel{
 
         
      /* ========== SERVICES =========== */
-    .service_specialitie{
+    .service-specialitie{
         padding: 0 20px;
         margin-top: 130px;
     }
     
-    .service_specialitie .title_specialitie span{
+    .service-specialitie .title-specialitie span{
         font-size: 1.5rem;
     }
     
-    .title_specialitie h1{
+    .title-specialitie h1{
         font-size: 4rem;
     }
     
-    .services_items .items_group{
+    .services-items .items-group{
         display: grid;
     }
 
-    .items_title h1{
+    .items-title h1{
         font-size: 2.5rem;
     }
     
-    .items_subtitle p{
+    .items-subtitle p{
         font-size: 1.3rem;
         margin-left: 4rem;
     }
     
-    .items_subtitle .item_img{
+    .items-subtitle .item-img{
         margin-left: 3rem;
     }
 
          /* ======== WORKS ========= */
-    .recent_projets{
+    .recent-projets{
         padding: 0 20px;
         margin-top: 130px; 
     }
     
-    .work_title span{
+    .work-title span{
         font-size: 1.5rem;
     }
 
-    .work_title h1{
+    .work-title h1{
         font-size: 4rem;
     }
     
-    .work_content {
+    .work-content {
         display: grid;
         grid-template-columns: repeat(1, max-content);
         column-gap: 0;
@@ -1536,188 +1536,188 @@ label #btn, label #cancel{
         padding: 50px;
     }
 
-    .project_content .work_project span{
+    .project-content .work-project span{
         font-size: 1rem;
     }
 
-    .work_project h3{
+    .work-project h3{
         font-size: 2rem;
     } 
 
-    .project_content{
+    .project-content{
         display: flex;
         row-gap: 1rem;
     }
     
     
-    .work_project i{
+    .work-project i{
         font-size: 4rem;
     }
     
-    .work_img img{
+    .work-img img{
         width: 140%;
     }
 
-    .container_project .work_btn button{
+    .container-project .work-btn button{
         padding: 20px 40px;
         font-size: 1.5rem;
     }
     
-    .work_btn button .icon_btn{
+    .work-btn button .icon-btn{
         padding: 5px 5px;
         font-size: 1.5rem;
     }
 
     /* testimonial */
 
-    .testi_title span{
+    .testi-title span{
         font-size: 1rem;
     }
     
-    .testi_title h1{
+    .testi-title h1{
         font-size: 2.5rem;
     }
 
-    .content_testi .block_testi{
+    .content-testi .block-testi{
         display: grid;
         padding: 0 30px;
     }
 
-    .block_testi .testi_img img {
+    .block-testi .testi-img img {
         width: 50%;
         margin-left: 150px;
     }
 
-    .block_testi .testi_quote{
+    .block-testi .testi-quote{
         margin-top: 0;
     } 
     
-    .block_testi .testi_quote{
+    .block-testi .testi-quote{
         margin-left: 10px;
     } 
 
-    .testi_quote .quote_p p{
+    .testi-quote .quote-p p{
         font-size: 1.3rem;
     }
     
-    .testi_quote .quote_p span{
+    .testi-quote .quote-p span{
         font-size: 1rem;
     }
     
-    .quote_icons i{
+    .quote-icons i{
         font-size: 1.8rem;
     }
     
      /* ============ BLOGS ============= */
-    .read_blog {
+    .read-blog {
         padding: 100px 40px;
     }
     
-    .read_blog .blog_title {
+    .read-blog .blog-title {
         text-align: center;
         margin-bottom: 40px;
     }
     
-    .blog_title span {
+    .blog-title span {
         font-size: 1.5rem;
     }
-    .blog_title h1{
+    .blog-title h1{
         font-size: 2.5rem;
     }
 
-    .read_blog  .blog_content {
+    .read-blog  .blog-content {
         display: block;
         row-gap: 3rem;
     }
 
-    .blog_content .group_txt{
+    .blog-content .group-txt{
         padding: 20px 0;
     }
 
-    .blog_content .group_txt span{
+    .blog-content .group-txt span{
         font-size: 1.2rem;
     }
     
-    .blog_content .group_txt p{
+    .blog-content .group-txt p{
         font-size: 1.7rem;
     }
 
-    .read_blog .blog_btn button {
+    .read-blog .blog-btn button {
         padding: 20px 40px;
         font-size: 1.5rem;
     }
 
-    .blog_btn button .icon_btn {
+    .blog-btn button .icon-btn {
         padding: 5px 5px;
         font-size: 1.5rem;
     }
 
  /* ============ CONTACT ============= */
-        .container_contact{
+        .container-contact{
             display: block;
             padding: 20px 30px;
         }
     
-        .contact_txt{
+        .contact-txt{
             padding: 30px 0;
         }
         
-        .contact_txt .txt_title span {
+        .contact-txt .txt-title span {
             font-size: 1.5rem;
         }
         
-        .contact_txt .txt_title h1{
+        .contact-txt .txt-title h1{
             font-size: 3rem;
             margin-bottom: 0;
         }
         
-        .contact_txt .txt_title p{
+        .contact-txt .txt-title p{
             font-size: 1.3rem;
         }
         
-        .contact_txt .txt_number span{
+        .contact-txt .txt-number span{
             font-size: 2.2rem;
         }
         
-        .contact_txt .txt_socials a{
+        .contact-txt .txt-socials a{
             padding: 0 10px;
             font-size: 1.5rem;
         }
         
-        .contact_form {
+        .contact-form {
             padding: 50px 50px;
             width: 100%;
         }
         
-        .input_group .user_name{
+        .input-group .user-name{
             padding: 20px 0;
             width: 100%;
         }
 
-        .input_group .user_name::placeholder{
+        .input-group .user-name::placeholder{
             font-size: 1.2rem;
         }
 
-        .form_input .are_msg::placeholder{
+        .form-input .are-msg::placeholder{
             font-size: 1.2rem;
         }
         
-        .form_input .form_icon{
+        .form-input .form-icon{
             color: var(--bg-color);
             font-size: 1.3rem;
         }
         
-        .form_input .form_joint{
+        .form-input .form-joint{
             font-size: 1rem;
             color: var(--bg-color);
         }
         
-        .form_input .blog_btn button{
+        .form-input .blog-btn button{
             padding: 20px 30px;
             font-size: 1.5rem;
         }
         
-        .blog_btn button .icon_btn{
+        .blog-btn button .icon-btn{
             padding: 5px 5px;
             font-size: 1rem;
         }    
