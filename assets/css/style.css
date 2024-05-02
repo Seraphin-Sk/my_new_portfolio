@@ -27,7 +27,7 @@ img{
     top: 0;
     left: 0;
     width: 20%;
-    height: auto;
+    height: 100vh;
     transition: all .5s ease;
 }
 
@@ -826,26 +826,35 @@ label #btn, label #cancel{
 /* =========== MEDIA QUERY ============ */
 
            /* Smartphone */
-@media only screen and (min-width: 390px) and (max-width: 600px) {
+/* @media only screen and (min-width: 390px) and (max-width: 600px)  */
+@media only screen and (min-width: 320px) and (max-width: 568px){
  
     /* side-bar */
 
     .global-left .side-bar{
         position: fixed;
         left: -250px;
-        width: 50%;
-        height: auto;
+        width: 55%;
+        height: 100vh;
         transition: all .5s ease;
     }
 
+    .content-logo{
+        margin-top: 0;
+    }
+
     .content-side-bar .menu-side-bar{
-        margin-top: 180px;
+        margin-top: -70px;
     }
     
     .socails-side-bar{
-        margin-top: 170px;
+        margin-top: 80px;
     }
 
+
+    .copyrights-side-bar{
+        margin-top: 20px;
+    }
 
     /* hide sidebar */
     #check{
@@ -1028,7 +1037,7 @@ label #btn, label #cancel{
     }
 
     .items-title h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     
     .items-subtitle p{
@@ -1065,6 +1074,10 @@ label #btn, label #cancel{
         font-size: 0.9rem;
     }
 
+    /* .work-project{
+        margin-left: 30px;
+    } */
+
     .work-project h3{
         font-size: 1.7rem;
     } 
@@ -1080,7 +1093,10 @@ label #btn, label #cancel{
     }
     
     .work-img img{
-        width: 110%;
+        width: 100%;
+    }
+    .work-img{
+        margin-left: 10px;
     }
 
     /* testimonial */
@@ -1168,11 +1184,10 @@ label #btn, label #cancel{
     .contact-txt .txt-socials a{
         color: var(--text-color);
         padding: 0 5px;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .contact-form {
-        background: linear-gradient(270.16deg, #464cfa 5.74%, #d74641 50.64%, #0a88ab 92.05%);
         padding: 50px 50px;
         width: 100%;
     }
