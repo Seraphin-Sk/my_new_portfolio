@@ -1065,8 +1065,8 @@ label #btn, label #cancel{
     
     .work-content {
         display: grid;
-        grid-template-columns: repeat(1, max-content);
-        column-gap: 0;
+        grid-template-columns:none;
+        column-gap: normal;
         row-gap: 1rem;
     }
 
@@ -1074,9 +1074,9 @@ label #btn, label #cancel{
         font-size: 0.9rem;
     }
 
-    /* .work-project{
-        margin-left: 30px;
-    } */
+    .work-project{
+        margin-left: 10px;
+    } 
 
     .work-project h3{
         font-size: 1.7rem;
@@ -1122,35 +1122,6 @@ label #btn, label #cancel{
         margin-left: 10px;
     } 
 
-    /* ============ BLOGS ============= */
-    .read-blog {
-        padding: 70px 40px;
-    }
-    
-    .read-blog .blog-title {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    
-    .blog-title span {
-        font-size: 1rem;
-    }
-    .blog-title h1{
-        font-size: 2rem;
-    }
-    
-    .read-blog  .blog-content {
-        display: grid;
-        row-gap: 3rem;
-    }
-
-    .blog-content .group-txt span{
-        font-size: 1rem;
-    }
-    
-    .blog-content .group-txt p{
-        font-size: 1.4rem;
-    }
 
     /* ============ CONTACT ============= */
     .container-contact{
@@ -1207,12 +1178,12 @@ label #btn, label #cancel{
         position: fixed;
         left: -400px;
         width: 40%;
-        height: auto;
+        height: 100vh;
         transition: all .5s ease;
     }
 
     .content-side-bar .menu-side-bar{
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .content-logo{
@@ -1245,7 +1216,7 @@ label #btn, label #cancel{
     }
 
     .socails-side-bar{
-        margin-top: 120px;
+        margin-top: 100px;
     }
 
 
@@ -1545,8 +1516,8 @@ label #btn, label #cancel{
     
     .work-content {
         display: grid;
-        grid-template-columns: repeat(1, max-content);
-        column-gap: 0;
+        grid-template-columns:none;
+        column-gap:normal;
         row-gap: 1rem;
         padding: 50px;
     }
@@ -1561,6 +1532,7 @@ label #btn, label #cancel{
 
     .project-content{
         display: flex;
+        justify-content: space-around;
         row-gap: 1rem;
     }
     
@@ -1570,7 +1542,7 @@ label #btn, label #cancel{
     }
     
     .work-img img{
-        width: 140%;
+        width: 100%;
     }
 
     .container-project .work-btn button{
@@ -1623,50 +1595,6 @@ label #btn, label #cancel{
         font-size: 1.8rem;
     }
     
-     /* ============ BLOGS ============= */
-    .read-blog {
-        padding: 100px 40px;
-    }
-    
-    .read-blog .blog-title {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    
-    .blog-title span {
-        font-size: 1.5rem;
-    }
-    .blog-title h1{
-        font-size: 2.5rem;
-    }
-
-    .read-blog  .blog-content {
-        display: block;
-        row-gap: 3rem;
-    }
-
-    .blog-content .group-txt{
-        padding: 20px 0;
-    }
-
-    .blog-content .group-txt span{
-        font-size: 1.2rem;
-    }
-    
-    .blog-content .group-txt p{
-        font-size: 1.7rem;
-    }
-
-    .read-blog .blog-btn button {
-        padding: 20px 40px;
-        font-size: 1.5rem;
-    }
-
-    .blog-btn button .icon-btn {
-        padding: 5px 5px;
-        font-size: 1.5rem;
-    }
-
  /* ============ CONTACT ============= */
         .container-contact{
             display: block;
