@@ -491,6 +491,7 @@ label #btn, label #cancel{
 
 .work-project i{
     font-size: 3rem;
+    color: var(--text-color);
 }
 
 .work-img{
@@ -1088,9 +1089,9 @@ label #btn, label #cancel{
     }
     
     
-    .work-project i{
+    /* .work-project i{
         display: none;
-    }
+    } */
     
     .work-img img{
         width: 100%;
